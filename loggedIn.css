@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body{
+    font-family: Poppins Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background: #485563;  
+    background: -webkit-linear-gradient(to right, #29323c, #485563); 
+    background: linear-gradient(to right, #29323c, #485563);
+    
+    vertical-align: middle;
+}
+
+.container{
+    background: #D38312;  
+    background: -webkit-linear-gradient(to right, #A83279, #D38312);  
+    background: linear-gradient(to right, #A83279, #D38312);
+    
+    
+    background-size: cover;
+    display: block;
+    width: 80%;
+    height: 800px;
+    padding: 10px 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+
+.container .log{
+   text-align: center;
+   width: 200px;
+   height: auto;
+   position: relative;
+   float: right;
+}
+
+.form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 8px 20px;
+    margin: 15px 0px;
+    background-color: #2a2a2a;
+    border-radius: 0.5em;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(110, 204, 212);
+  }
+  
+
